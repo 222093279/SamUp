@@ -47,6 +47,9 @@ The stakeholder manages two off-campus student rooms under 11-month rental contr
 relies on handwritten records, verbal terms and conditions, and manual payment tracking. This creates
 organisational difficulties, misunderstandings and challenges monitoring late payments while students remain
 under active contracts.
+
+MV Tshabalala 222044346,
+
 1.3 Problem Statement
 The accommodation owner currently relies on handwritten records and verbal communication to manage two
 offcampus student accommodation rooms and their 11-month rental contracts. This creates difficulties in
