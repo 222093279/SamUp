@@ -8,8 +8,8 @@ L Matlhoane 222059872,
 RD Mohlomi 222082927.
 
 
-ITC327W - UPDATED SOFTWARE REQUIREMENTS
-SPECIFICATION (SRS)
+ITC327W - UPDATED SOFTWARE REQUIREMENTS SPECIFICATION (SRS)
+
 Student Accommodation Management System
 Module: ITC327W-Work-Integrated Learning
 Stakeholder: Makhele PC-Student Accommodation Owner
