@@ -77,6 +77,7 @@ through a Flutter mobile application, an ASP.NET web application and a shared Su
 8. Reduce misunderstandings caused by relying on verbal communication.
 9. Provide students with access to relevant accommodation information.
 10. Provide the owner with a web-based platform for managing accommodation information.
+
 1.6 Scope
 1.6.1 In Scope
 Student information management.
@@ -140,6 +141,8 @@ Non-Functional Requirement
 Reporting Requirement
 Use Case
 Entity Relationship Diagram
+
+
 2. OVERALL DESCRIPTION
 2.1 Product Perspective
 The system consists of three integrated components:
@@ -190,6 +193,8 @@ Store student, room, agreement, terms and payment records.
 Provide shared data access to both applications.
 Enforce authentication and authorisation.
 Handle real-time data synchronisation.
+
+
 2.6 Constraints
 1. Academic semester deadline (31 August 2026 for Phase 1; remaining phases follow academic calendar).
 2. System initially designed for two accommodation rooms only.
@@ -328,6 +333,7 @@ The system must associate the Must Have
 relevant terms and conditions
 with the student's rental
 agreement.
+
 4.5 Payment Management
 ID Functional Requirement Priority
 FR17 The owner must be able to
@@ -346,6 +352,7 @@ FR21 The owner must be able to
 update payment information
 when a payment is received.
 Must Have
+
 4.6 Outstanding Payment
 Management
 ID Functional Requirement Priority
@@ -361,6 +368,7 @@ FR24 The owner must be able to view the
 relevant rental information
 when checking an outstanding payment.
 Should Have
+
 4.7 Student Mobile Functions
 ID Functional Requirement Priority
 FR25 Students must be able to access the Must Have
@@ -370,12 +378,15 @@ ID Functional Requirement Priority
 FR26 Students must be able to view their
 accommodation information.
 Should Have
+
 FR27 Students must be able to view their
 rental agreement information.
 Should Have
 FR28 Should Have
 Students must be able to view
 applicable terms and conditions.
+
+
 4.8 Owner Web Functions
 ID Functional Requirement Priority
 FR29 The owner must be able to access the
@@ -397,6 +408,7 @@ Must Have
 FR35 The owner must be able to view
 outstanding payments.
 Must Have
+
 4.9 Shared Information and Integration
 ID
 FR36
@@ -451,6 +463,7 @@ UC09 View Rental Student Tenant Should Have
 Agreement
 UC10 View Terms and Student Tenant Should Have
 Conditions
+
 5.3 Use Case Descriptions UC01 - Manage Student Information
 Purpose: Maintain accurate student tenant records.
 Precondition: Owner is authorised.
@@ -569,6 +582,7 @@ Associated agreement
 Applicable rental rules
 When terms were added
 Status Currently applicable or not
+
 6.5 Payment Information
 Data Item
 Payment ID
@@ -586,6 +600,7 @@ Payment period
 Payment amount
 Paid, outstanding, late
 Month/year of rental
+
 6.6 User and Access Information
 Data Item
 User ID
@@ -601,6 +616,7 @@ Owner or student
 Active or inactive
 Security Note: Passwords and authentication credentials must be securely hashed (e.g., bcrypt) and must never be
 stored in project documentation or GitHub.
+
 6.7 Data Relationships
 One student is associated with one accommodation room.
 A student has one rental agreement (per room/period).
@@ -619,6 +635,7 @@ A student may have multiple payment records during the contract period.
 8. A payment must not be recorded without identifying the relevant student or agreement.
 9. Email addresses must follow valid format.
 10. Phone numbers must contain valid digits.
+
 7. EXTERNAL REQUIREMENTS
 7.1 User Interface Requirements Flutter
 Mobile Application:
