@@ -34,6 +34,7 @@ TABLE OF CONTENTS
 14. Integration Requirements
 15. Supplemental Information
 16. Stakeholder Evidence
+
 1. INTRODUCTION
 1.1 Purpose
 This Software Requirements Specification (SRS) describes the complete requirements for the Student
@@ -59,6 +60,8 @@ communicated information can lead to misunderstandings and conflicts. Late payme
 the owner when managing students who still have active contracts. An improved digital solution is required to
 provide organised records and improve the management of students, rooms, rental agreements, terms and
 conditions and rental payments.
+
+
 1.4 Project Aim
 To develop a Student Accommodation Management System that provides a centralised digital method for
 managing student accommodation information, rental agreements, terms and conditions and rental payments
